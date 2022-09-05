@@ -6,7 +6,8 @@ circular_linked_list = list(map(int,input().strip().split(" ")))
 
 
 correct_list = [circular_linked_list[i] for i in range(3)]
-for i in range circular_linked_list:
+for i in  circular_linked_list:
+  
   if not in correct_list:
     correct_list.append(i)
 print(len(correct_list)
